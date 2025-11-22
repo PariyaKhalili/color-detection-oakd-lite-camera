@@ -35,13 +35,13 @@ This system performs HSV color segmentation, contour extraction, and live annota
 
 ## Required libraries in requirements.txt:
 
-opencv-python
+    opencv-python
 
-numpy
+    numpy
 
-os
+    os
 
-depthai==2.30.0.0
+    depthai==2.30.0.0
 
 ## 📦 Installation & Virtual Environment Setup
 
@@ -55,30 +55,30 @@ depthai==2.30.0.0
 
     pip install -r requirements.txt
 
-##▶️ Running the Application
+## ▶️ Running the Application
 
 Make sure your OAK-D is connected via USB.
 
-Run this command:
+Run this command in your virtual environment:
 
-python src/main.py
+    python main.py
 
 
 Press Q to quit the real-time viewer.
 
 📂 Project Structure
-├── src/
-│   ├── main.py               # Main OAK-D detection script
-│   └── util.py               # HSV threshold helper function
-│
-├── example/
-│   └── detection_sample.jpg  # Output screenshot
-│
-├── output/
-│   └── output.mp4            # Auto-generated video file
-│
-├── requirements.txt
-└── README.md
+    ├── src/
+    │   ├── main.py               # Main OAK-D detection script
+    │   └── util.py               # HSV threshold helper function
+    │
+    ├── example/
+    │   └── detection_sample.jpg  # Output screenshot
+    │
+    ├── output/
+    │   └── output.mp4            # Auto-generated video file
+    │
+    ├── requirements.txt
+    └── README.md
 
 ## 🎨 Example Output
 
@@ -91,18 +91,16 @@ Click the link below to watch the demo:
 
 ## 🧩 How the System Works
 
-Capture frame from OAK-D
+1. Capture frame from OAK-D
 
-Convert BGR → HSV
+2. Convert BGR → HSV
 
-Load impurity thresholds from util.py
+3. Load impurity thresholds from util.py
 
-Create binary masks
+4. Create binary masks
 
-Extract contours
+5. Extract contours
 
-Draw bounding boxes
+6. Draw bounding boxes
 
-Save & show annotated frames
-
-You can easily extend detection to more colors (yellow, red, blue, etc.) by adding ranges to get_limits().
+7. Save & show annotated frames
