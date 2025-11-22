@@ -83,14 +83,12 @@ Press Q to quit the real-time viewer.
 
 ## 🎨 Example Output
 
-A sample detection image is available in:
-
-examples/detection_sample.jpg
-
-
-Display it in README:
+A sample detection image:
 
 ![Example](examples/detection_sample.jpg)
+
+Click the link below to watch the demo:
+[Demo](output/demo.mp4)
 
 ## 🧩 How the System Works
 
