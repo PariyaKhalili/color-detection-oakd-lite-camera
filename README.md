@@ -19,42 +19,41 @@ This system performs HSV color segmentation, contour extraction, and live annota
 
 ## 🛠️ Technologies Used
 
-DepthAI (OAK-D) for RGB stream
+- DepthAI (OAK-D) for RGB stream
 
-OpenCV for image processing
+- OpenCV for image processing
 
-NumPy for matrix operations
+- NumPy for matrix operations
 
-Python for pipeline implementation
+- Python for pipeline implementation
 
 ## 📋 Prerequisites
 
-Python 3.8+
+- Python 3.8+
 
-OAK-D / OAK-D-Lite camera
+- OAK-D / OAK-D-Lite camera
 
 ## Required libraries in requirements.txt:
 
 opencv-python
+
 numpy
+
 os
+
 depthai==2.30.0.0
 
 ## 📦 Installation & Virtual Environment Setup
 
 1. Create and activate a virtual environment:
 
-python -m venv .venv
+    python -m venv .venv
 
-
-Windows:
-
-.venv\Scripts\activate.bat
-
+    .venv\Scripts\activate.bat
 
 2. Install dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ##▶️ Running the Application
 
