@@ -67,6 +67,7 @@ Run this command in your virtual environment:
 Press Q to quit the real-time viewer.
 
 📂 Project Structure
+
     ├── src/
     │   ├── main.py               # Main OAK-D detection script
     │   └── util.py               # HSV threshold helper function
