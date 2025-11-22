@@ -72,7 +72,7 @@ Press Q to quit the real-time viewer.
 │   ├── main.py               # Main OAK-D detection script
 │   └── util.py               # HSV threshold helper function
 │
-├── examples/
+├── example/
 │   └── detection_sample.jpg  # Output screenshot
 │
 ├── output/
@@ -85,10 +85,10 @@ Press Q to quit the real-time viewer.
 
 A sample detection image:
 
-![Example](examples/detection_sample.jpg)
+![Example](example/detection_sample.jpg)
 
 Click the link below to watch the demo:
-[Demo](output/demo.mp4)
+[Demo](output/output.mp4)
 
 ## 🧩 How the System Works
 
