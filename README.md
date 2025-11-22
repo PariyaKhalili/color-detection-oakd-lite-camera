@@ -5,17 +5,17 @@ This system performs HSV color segmentation, contour extraction, and live annota
 
 ## ✨ Features
 
-Real-Time Detection using OAK-D camera
+- Real-Time Detection using OAK-D camera
 
-Color Segmentation for brown + black impurities
+- Color Segmentation for brown + black impurities
 
-Contour-Based Bounding Boxes
+- Contour-Based Bounding Boxes
 
-MP4 Video Recording of annotated frames
+- MP4 Video Recording of annotated frames
 
-Modular Structure (main.py + util.py)
+- Modular Structure (main.py + util.py)
 
-Lightweight Dependencies (OpenCV + DepthAI)
+- Lightweight Dependencies (OpenCV + DepthAI)
 
 ## 🛠️ Technologies Used
 
