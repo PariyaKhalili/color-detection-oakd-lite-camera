@@ -47,13 +47,13 @@ This system performs HSV color segmentation, contour extraction, and live annota
 
 1. Create and activate a virtual environment:
 
-    python -m venv .venv
+        python -m venv .venv
 
-    .venv\Scripts\activate.bat
+        .venv\Scripts\activate.bat
 
 2. Install dependencies:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 ## ▶️ Running the Application
 
