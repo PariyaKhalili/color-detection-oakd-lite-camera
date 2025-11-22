@@ -1,0 +1,5 @@
+python_version >= "3.8"
+opencv-python
+numpy
+os
+depthai==2.30.0.0
